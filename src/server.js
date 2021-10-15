@@ -12,3 +12,5 @@ mongoose.connect('mongodb://localhost/chatroom', function(err, db){
         throw err;
     }
 })
+
+module.exports = mongoose;

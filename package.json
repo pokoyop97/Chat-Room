@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Chat Room MongoDB VUEJs Express Socket",
   "scripts": {
-    "test": "mocha"
+    "start": "node src/server.js",
+    "test": "mocha test api.test.js --exit"
   },
   "keywords": [
     "Chatroom"

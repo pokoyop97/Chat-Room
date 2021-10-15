@@ -29,7 +29,6 @@ new Vue({
     mounted() {
         socket.on('chat-message', (msg) => {
             this.messages.push(msg);
-
             setTimeout(() => {
                 // scroll to bottom
                 const chatContainer = document.querySelector(".chat-container");

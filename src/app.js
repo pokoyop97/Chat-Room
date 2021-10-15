@@ -8,3 +8,4 @@ app.use(express.static(__dirname + '/../public'));
 socket(http);
 
 module.exports = http;
+module.exports =app;
